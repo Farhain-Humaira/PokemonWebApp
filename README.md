@@ -23,7 +23,8 @@ npm install
 ### Development
 To start the development server and enable hot-reloading:
 ```
-npm run serve / npm run dev
+npm run serve / npm run dev 
 ```
 
+Then it will run the serve to open the App.vue.
 
