@@ -9,21 +9,9 @@ This project is a frontend coding challenge that involves building a web app to 
 - Bootstrap 5.3.x: Bootstrap
 - Pinia: Pinia
 
-## Project setup
+## Project Live
+https://farhain-humaira.github.io/PokemonWebApp/
 
-### Installation
-To get started, clone the repository and install the dependencies:
-```
-git clone <repository-url>
-npm install
-```
-
-### Development
-To start the development server and enable hot-reloading:
-```
-npm run dev
-npm run serve
-```
 ### Features
 1. Fetching Data: The app fetches a list of Pokémon from the PokeAPI and displays them in a grid layout.
 2. Display: Each Pokémon card includes the name, image, and a brief introduction. Pagination is optional.
