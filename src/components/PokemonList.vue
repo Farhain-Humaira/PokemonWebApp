@@ -8,7 +8,7 @@
       </button>
     </div>
     <div v-if="loading" class="text-center">
-    <Loader :loading="loading" />
+    <Loader  />
     </div>
     <div v-else class="row">
       <div v-for="pokemon in filteredPokemon" :key="pokemon.id" class="col-md-3 mb-4">
