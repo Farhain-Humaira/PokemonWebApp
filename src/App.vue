@@ -5,17 +5,31 @@
       <h6>You’ve just entered the Pokémon world! <br>Get ready to catch, explore, and discover amazing Pokémon.</h6>
     </section>
   <div id="app">
-    <PokemonList />
+    <LoadingSpinner v-if="isLoading" />
+    <PokemonList v-else />
   </div>
 </template>
 
 <script>
   import PokemonList from './components/PokemonList.vue';
+  import LoadingSpinner from './components/LoadingSpinner.vue';
 
 export default {
   components: {
-    PokemonList
-  }
+    PokemonList,
+    LoadingSpinner
+  },
+  data() {
+    return {
+      isLoading: true,
+    };
+  },
+  mounted() {
+    // Simulate an API call
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 2000);
+  },
 };
 </script>
 
