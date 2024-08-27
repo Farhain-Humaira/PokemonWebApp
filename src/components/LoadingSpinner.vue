@@ -1,8 +1,6 @@
 <template>
-    <div class="loading-spinner">
-      <div class="spinner-border" role="status"></div>
-    </div>
-  </template>
+  <div class="loader" role="status"></div>
+</template>
   
   <script>
   export default {
@@ -12,9 +10,9 @@
   
   <style scoped>
   .loader {
-  border: 5px solid #f3f3f3;
+  border: 5px solid #000000;
   border-radius: 50%;
-  border-top: 5px solid #3498db;
+  border-top: 5px solid #2e4352;
   width: 50px;
   height: 50px;
   animation: spin 1s linear infinite;
