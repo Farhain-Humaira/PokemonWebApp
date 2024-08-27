@@ -10,8 +10,8 @@ This project is a frontend coding challenge that involves building a web app to 
 - Pinia: Pinia
 
 ## Project Live
-Click the link below.
-Loading... This may take a moment depending on your internet connection.
+- Click the link below.
+- Loading... This may take a moment depending on your internet connection.
 https://farhain-humaira.github.io/PokemonWebApp/
 
 ## Project Setup
