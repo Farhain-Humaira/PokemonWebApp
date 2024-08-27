@@ -12,5 +12,19 @@ This project is a frontend coding challenge that involves building a web app to 
 ## Project Live
 https://farhain-humaira.github.io/PokemonWebApp/
 
-## Project Installation
+## Project Setup
+### Installation
+To get started, clone the repository and install the dependencies:
+```
+git clone <https://github.com/Farhain-Humaira/PokemonWebApp>
+npm install
+```
+
+### Development
+To start the development server and enable hot-reloading:
+```
+npm run serve / npm run dev 
+```
+
+Then it will run the serve to open the App.vue.
 
